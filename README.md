@@ -1,6 +1,6 @@
 # Data pipeline PoC
 
-This pipeline deploy in docker
+This is a PoC data pipeline using:
 
 1. Kafka 
 2. Flink
