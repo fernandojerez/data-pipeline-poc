@@ -4,8 +4,9 @@ This is a PoC data pipeline using:
 
 1. Kafka 
 2. Flink
+3. Postgresql
 
-The idea is create an environment equivalent to **Amazon MSK** and **Kinesis Data Analytics**
+The idea is create an environment equivalent to **Amazon MSK**, **Kinesis Data Analytics** and **Amazon Aurora for Postgresql**
 
 ## Usage
 
