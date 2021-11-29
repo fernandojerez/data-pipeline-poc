@@ -43,3 +43,11 @@ module "flink" {
   network-name = docker_network.network.name
   session-name = "flink"
 }
+
+module "postgresql" {
+  source            = "./modules/postgresql"
+  database-name     = var.database["name"]
+  database-password = var.database["password"]
+  database-user     = var.database["user"]
+  network-name      = docker_network.network.name
+}

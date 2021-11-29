@@ -15,3 +15,13 @@ variable "docker-api" {
   default     = "npipe:////./pipe/docker_engine"
   description = "Docker api url"
 }
+
+variable "database" {
+  type = map(string)
+  default = {
+    name     = "store"
+    user     = "pipeline"
+    password = "Password1$"
+  }
+  description = "database configuration"
+}
